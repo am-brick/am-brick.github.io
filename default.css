@@ -1,0 +1,45 @@
+* {
+	color: #65000b;
+	text-align: center;
+}
+
+body {
+	background-color: #FFECEF;
+}
+
+/* Properties for all headers */
+h1,h2,h3,h4 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 52px;
+}
+
+h1:after {
+	content: "Vanilla's Text Files";
+}
+
+/* Header #2 is used a sub-header */
+h2 {
+	font-size: 30px;
+}
+
+/* Header #3 is used for writing standard paragraphs */
+h3 {
+	font-family: "Courier New";
+	font-size: 15px;
+	padding-left: 400px;
+	padding-right: 400px;
+	line-height: 2;
+}
+
+/* Solid divider line*/
+hr.solid {
+	border-top: 1px #bbb;
+}
+
+/* Customize links to differentiate them from the regular text */
+a {
+	font-size: 20px;
+}
